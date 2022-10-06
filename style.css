@@ -222,7 +222,7 @@ fieldset[disabled] .btn-primary.active {
 
 
 body{
-  background-color: #ebedec;
+  background-color: rgb(251, 241, 225);;
   padding-top: 40px;
   padding-left: 0;
   padding-right: 0;
@@ -244,12 +244,13 @@ body{
 }
 
 .hero {
-	min-height: 80vh;
+	min-height: 90vh;
 	width: 100%;
 	max-width: 130rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+  *padding-top: 10vh;
 	align-items: center;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -271,7 +272,7 @@ body{
 
 .contact-button:hover {
   font-weight: 500;
-  color: rgb(32, 168, 32);
+  color: rgb(203, 255, 203);
 	cursor: pointer;
 	background-color: rgb(0, 27, 2);
   text-decoration: none;
@@ -330,7 +331,7 @@ body{
 
 .social-links-hero .icon {
   color: rgb(20, 59, 20);
-	background-color: rgb(245, 245, 245);
+	/* background-color: rgb(245, 245, 245);
   width: 5rem;
 	height: 5rem;
 	display: flex;
@@ -338,10 +339,11 @@ body{
 	align-items: center;
 	text-align: center;
 	border-radius: 50%;
+  box-shadow: #222 1px 1px 3px; */
 	margin-right: 0.5rem;
 	cursor: pointer;
   text-decoration: none;
-  box-shadow: #222 1px 1px 3px;
+  
 }
 
 .social-links-hero .icon:hover {
@@ -391,7 +393,7 @@ body{
 /*-----------------*/
 
 .bg-light-gray{
-  background-color: #ebedec;
+  background-color: rgb(251, 241, 225);;
 }
 
 
@@ -400,7 +402,7 @@ body{
       text-align: center;
       padding-left: 20px;
       padding-right: 20px;
-      background-color: #ebedec;
+      background-color: rgb(251, 241, 225);;
 	  }
 }
 @media screen and (min-width: 1025px){
