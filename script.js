@@ -70,7 +70,7 @@ skill6id.innerHTML = graphicdesign;
 
 
 //  add details to html 
-nameid.innerHTML = username;
+nameid.innerHTML = "<img src='images/logo.png' class='toplogo' onerror='this.style.display = 'none''></img>" + username;
 nameinheroid.innerHTML = "hi, i'm "+ username;
 footernameid.innerHTML = username;
 jobid.innerHTML = "I am a "+ job +".";
