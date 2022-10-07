@@ -1,5 +1,6 @@
 // 👇️ add data 👇️
 let username = "Aung Linn Khant";
+let usernameInNav =""; //add same username here if you want to show Username in Navbar
 let job = "photographer";
 let aboutme = "I proved talented since young, studying arts at the local Arts School since 11 and by 15 was already using my first camera. Certified photographer from 2015, I am showing creativity and continuous improvement."
 let facebook = "";
@@ -70,7 +71,7 @@ skill6id.innerHTML = graphicdesign;
 
 
 //  add details to html 
-nameid.innerHTML = "<img src='images/logo.png' class='toplogo' onerror='this.style.display = 'none''></img>" + username;
+nameid.innerHTML = "<img src='images/logo.png' class='toplogo' onerror='this.style.display = 'none''></img>" + usernameInNav;
 nameinheroid.innerHTML = "hi, i'm "+ username;
 footernameid.innerHTML = username;
 jobid.innerHTML = "I am a "+ job +".";
