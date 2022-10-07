@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (https://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -52,7 +53,7 @@ a.active {
 .btn-primary {
     border-color: rgb(20, 59, 20);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', cursive;
     font-weight: 700;
     color: rgb(236, 233, 212);
     background-color: rgb(20, 59, 20);
@@ -106,9 +107,9 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar-default .navbar-brand {
   color: rgb(20, 59, 20);
-  font-family: 'Staatliches', cursive;
-  font-weight: 500;
-	font-size: 5rem;
+  font-family: 'Montserrat', cursive;
+  font-weight: 700;
+	font-size: 4rem;
   padding-left: 50px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -175,15 +176,15 @@ fieldset[disabled] .btn-primary.active {
 .navbar{
   font-family: 'Staatliches';
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
   .navbar-default .navbar-brand {
-    font-weight: 100;
+    font-weight: 600;
     font-size: 3rem;
     padding-left: 10px;
 
   }
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:820px) {
 
     .navbar-default {
         padding: 25px 0;
@@ -228,6 +229,7 @@ body{
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -281,7 +283,7 @@ body{
 .left {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	flex: 1;
 }
 
@@ -361,8 +363,8 @@ body{
 
 @media screen and (min-width: 350px) {
 	.hero-image {
-		width: 18rem;
-		height: 18rem;
+		width: 25rem;
+		height: 25rem;
 	}
 }
 
@@ -373,7 +375,7 @@ body{
 	}
 
 	.left {
-		margin-bottom: 0;
+		margin-bottom: 100px;
 	}
 
 	.right {
@@ -499,7 +501,7 @@ body{
   background: -webkit-linear-gradient(rgb(20, 59, 20), rgb(20, 59, 20));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 @media screen and (max-width: 700px) {
@@ -616,6 +618,7 @@ body{
   font-family: 'Staatliches', cursive;
   font-size: 30px;
   margin-bottom: 20px;
+  color: rgb(10, 37, 10);
 }
 
 .skillcard{
@@ -735,12 +738,12 @@ body{
 .footer-left .name {
 	font-size: 4rem;
 	font-weight: bold;
-  color:rgb(246, 251, 255);
+  color:rgb(246, 255, 246);
 }
 
 .footer-left .copyright {
 	font-size: 1.3rem;
-  color: rgb(138, 155, 170);
+  color: rgb(178, 197, 178);
 }
 
 .footer-middle {
@@ -754,26 +757,26 @@ body{
 .footer-middle .header {
 	font-size: 2.5rem;
 	font-weight: bold;
-  color: rgb(246, 251, 255);
+  color: rgb(246, 255, 246);
 }
 
 .footer-right .header {
 	font-size: 2.5rem;
 	font-weight: bold;
-  color: rgb(246, 251, 255);
+  color: rgb(246, 255, 246);
 }
 
 .footer-middle a {
 	font-style: normal;
 	text-decoration: none;
-	color: rgb(175, 193, 209);
+	color: rgb(217, 255, 217);
 	font-size: 2rem;
 	gap: 0.5rem;
 	cursor: pointer;
 }
 
 .footer-middle a:hover {
-	color: rgb(255, 255, 255);
+	color: rgb(119, 233, 119);
 }
 
 .footer-right {
@@ -809,7 +812,7 @@ body{
 	align-items: center;
 	font-style: normal;
 	text-decoration: none;
-	color: rgb(175, 193, 209);
+	color: rgb(217, 255, 217);
 	font-size: 2rem;
 	gap: 0.5rem;
 }
@@ -820,7 +823,7 @@ body{
 
 .social-link:hover {
 	cursor: pointer;
-	color: rgb(255, 255, 255);
+	color: rgb(119, 233, 119);
   text-decoration: none;
 }
 
