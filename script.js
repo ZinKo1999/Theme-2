@@ -5,10 +5,10 @@ let job = "photographer";
 let aboutme = "I proved talented since young, studying arts at the local Arts School since 11 and by 15 was already using my first camera. Certified photographer from 2015, I am showing creativity and continuous improvement."
 let facebook = "";
 let instagram = "";
-let email = "";
+let email = "aunglinnkhant@gmail.com";
 let twitter ="";
 let telegram = "";
-let phone ="";
+let phone ="+959273822";
 
 // End
 
@@ -49,8 +49,13 @@ const instagramid = document.getElementById("instagram");
 const emailid = document.getElementById("email");
 const twitterid = document.getElementById("twitter");
 const telegramid = document.getElementById("telegram");
+const facebookheroid = document.getElementById("facebookhero");
+const instagramheroid = document.getElementById("instagramhero");
+const emailheroid = document.getElementById("emailhero");
+const twitterheroid = document.getElementById("twitterhero");
+const telegramheroid = document.getElementById("telegramhero");
 const phoneid = document.getElementById("phone");
-
+const contactmeid = document.getElementById("contactme");
 // End Don't Touch
 
 
@@ -71,17 +76,23 @@ skill6id.innerHTML = graphicdesign;
 
 
 //  add details to html 
-nameid.innerHTML = "<img src='images/logo.png' class='toplogo' onerror='this.style.display = 'none''></img>" + usernameInNav;
+nameid.innerHTML = "<img src='images/logo.png' class='toplogo' onerror='this.style.display = `none`'></img>" + usernameInNav;
 nameinheroid.innerHTML = "hi, i'm "+ username;
 footernameid.innerHTML = username;
 jobid.innerHTML = "I am a "+ job +".";
 aboutmeid.innerHTML = aboutme;
 facebookid.href = facebook; 
 instagramid.href = instagram; 
-emailid.href = email; 
+emailid.href = "mailto:"+email; 
 twitterid.href = twitter; 
 telegramid.href = telegram; 
-phoneid.href = phone; 
+facebookheroid.href = facebook; 
+instagramheroid.href = instagram; 
+emailheroid.href = "mailto:"+email; 
+twitterheroid.href = twitter; 
+telegramheroid.href = telegram; 
+phoneid.innerHTML = phone; 
+contactmeid.href = "mailto:"+email;
 
 //change web title
 document.title = username;
