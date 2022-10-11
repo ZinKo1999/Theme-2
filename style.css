@@ -424,7 +424,12 @@ body{
   }
 }
 
-
+@media screen and (min-width: 1200px) {
+	.hero-image {
+		width: 50rem;
+		height: 50rem;
+	}
+}
 
 /*-----------------*/
 
